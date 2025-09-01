@@ -314,7 +314,7 @@ function updateUI(avg){
   }
   // Red = Use soon
   else if ((hsv.h < 20 || hsv.h > 340) && hsv.s > 0.2 && hsv.v > 0.15) {
-    label = 'Almost Spoiled';
+    label = 'Use soon';
     days = '2–3 days';
     colorClass = '#ef4444'; // red
   }
@@ -351,4 +351,5 @@ function rgbToHex(r,g,b){
 
 </body>
 </html>
+
 
